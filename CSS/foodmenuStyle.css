@@ -80,19 +80,15 @@
 
 /* section 2 end */
 
-.btnbox{
+.btnbox
+{
     width: var(--main-width);
     height: 100px;
+    margin: 10px auto 10px auto;
     background-color: #2b1f1f;
-    display: grid;
-    place-items: center;
-    margin: 20px;
-    margin-left: 150px;
-    box-sizing: 5px 5px 5px black;
-    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     overflow: hidden;
 }
-
 
 #btn{
     width: 150px;
