@@ -9,7 +9,7 @@
 /*home section start*/
 #home{
     width: var(--main-width);
-    height: var(--main-height);
+    height: 700px;
     margin: auto;
     background-color: rgb(87, 87, 87);
     background-image: url(../Media/home-bg.jpg);
