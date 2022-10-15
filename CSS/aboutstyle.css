@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*Section 1 Start*/
+#sec1{
+    width: var(--main-width);
+    height: var(--main-height); 
+    margin: auto;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+#right_div{
+    width: 30%;
+    height: var(--main-height);
+    position: absolute;
+    background-color: #F25234;
+    right: 0;
+    top: 0;
+}
+
+#ab1_img{
+    position: absolute;
+    top: 180px;
+    left: 850px;
+}
+
+#ab1_img img{
+    width: 500px;
+    animation: food_plate 5s linear infinite;
+}
+
+@keyframes food_plate {
+    0% , 100% { transform:  rotate(0deg);}
+    50% { transform: rotate(20deg); }
+}
+
+#text{
+    margin-left: 150px;
+    margin-top: 320px;
+}
+
+#text h2 {
+    font-size: 50px;
+    padding: 5px;
+}
+#text h2 strong{
+    color: #F25234;
+}
+
+#text p {
+    padding: 10px;
+    line-height: 2;
+    font-size: 25px;
+}
+
+/*Section 1 End*/
+
+/*Section 2 Start*/
+
+#sec2{
+    width: var(--main-width);
+    height: var(--main-height);
+    margin: auto;
+    position: relative;
+    background-color: #EFEFEF;
+    display: grid;
+    place-items: center;
+}
+
+#child2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#img2{
+    width: 500px;
+}
+
+#img2 img{
+    width: 500px;
+}
+
+#content2{
+    width: 500px;
+}
+
+#content2 h2{
+    font-size: 40px;
+    padding: 10px;
+}
+
+#content2 h2 strong{
+    color: #F25234;
+}
+
+#content2 p{
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/*Section 2 End*/
+
+/*Section 3 Start*/
+
+#sec3{
+    width: var(--main-width);
+    height: 600px;
+    margin: auto;
+    background-color: #EFEFEF;
+    overflow: hidden;
+}
+
+#right_div3{
+    width: var(--main-width);
+    height: 40%;
+    background-color: #F25234;;
+}
+
+#right_div3 h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.client_div{
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    top: -100px; left: 150px;
+    display: grid;
+    place-items: center;
+}
+
+.client_div .clntimg{
+    width: 170px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition-duration: .8s;
+}
+
+.client_div .clntimg:hover{
+    width: 200px;
+}
+
+.client_div h3{
+    text-transform: capitalize;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.client_div p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.clnt_star{
+    width: 150px;
+    padding-top: 10px;
+}
+
+
+/*Section 3 end*/

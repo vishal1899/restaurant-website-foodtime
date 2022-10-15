@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conatct us</title>
+    <link rel="stylesheet" href="./CSS/contactstyle.css" />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- jq-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("button").hide();
+          $("#slide_from").slideDown(2000);
+        });
+        s;
+
+        $("#slide_from").submit(function () {
+          $("#slide_from").fadeOut(2000);
+          event.preventDefault();
+        });
+      });
+    </script>
+
+    <!--jq End-->
+
+    <!--  <script>
+
+        function validation()
+        {
+            var a = document.getElementById("email").value;
+            if(a=="")
+            {
+                document.getElementById("msg1").innerHTML=(" *Please Enter Your Email");
+                return false;
+            };
+
+            var b = document.getElementById("name").value;
+            if(b=="")
+            {
+                document.getElementById("msg2").innerHTML=(" *Please Enter Your Name");
+                return false;
+            };
+
+            var c = document.getElementById("phn").value;
+            if(c=="")
+            {
+                document.getElementById("msg3").innerHTML=(" *Please Enter Your Phone Number");
+            };
+
+            var d= document.getElementById("msg").value;
+            if( d=="")
+            {
+                document.getElementById("msg4").innerHTML=(" *Please Enter Your Message");
+            };
+            
+        };
+
+    </script>
+
+    -->
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <img src="./Media/TFT logo.png" alt="Logo" />
+
+      <nav id="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./foodMenu.html">Food Menu</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="./About.html">About Us</a>
+        <a href="./ordernow.html">Order Now</a>
+      </nav>
+    </header>
+
+    <!-- header section End  -->
+
+    <!--Section 1 Start-->
+
+    <section id="sec1">
+      <div id="left_div"></div>
+      <div id="phn_img">
+        <img src="./Media/cont_1.png" alt="Food Time Image" />
+      </div>
+      <div id="text">
+        <h2><strong>Food Time</strong><br />Welcome to the contact us page</h2>
+        <p>You can feel free contact us. We are ready to talk.</p>
+      </div>
+    </section>
+
+    <!--Section 1 End-->
+
+    <!--Section 2 Start-->
+
+    <section id="sec2">
+      <div id="child_div">
+        <h1>Get In Touch</h1>
+        <ul id="social_icon">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <p>
+          Please complete the form below and someone will be in touch with you
+          shortly.
+        </p>
+
+        <button>Click Here If You Want To Fill From</button>
+
+        <div id="slide_from">
+          <img id="SF" src="./Media/tanku_contact_page.gifS" alt="" />
+          <form onsubmit=" return validation()">
+            <table>
+              <tr>
+                <td>
+                  <input
+                    type="email"
+                    name=""
+                    id="email"
+                    required
+                    placeholder="Enter Your Email"
+                  />
+                  <span id="msg1"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    name=""
+                    id="name"
+                    required
+                    placeholder="Enter Your Full Name"
+                  /><span id="msg2"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="number"
+                    name=""
+                    id="phn"
+                    required
+                    placeholder="Enter Your Phone Number"
+                  /><span id="msg3"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea
+                    name=""
+                    id="msg"
+                    rows="5"
+                    required
+                    placeholder="Enter your massege..."
+                  ></textarea
+                  ><span id="msg4"></span>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="submit" value="submit" /></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--Section 2 End-->
+
+    <!--Footer Start-->
+
+    <footer>
+      <nav id="footnav">
+        <a href="#" class="social">facebook</a>
+        <a href="#" class="social">instagram</a>
+        <a href="#" class="social">twitter</a>
+      </nav>
+
+      <div id="developer">
+        <p>
+          Copyright &copy; 2020-2021 - Created By <strong>Vishal Kumar</strong>
+        </p>
+      </div>
+    </footer>
+
+    <!--Footer End-->
+  </body>
+</html>

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*section 1 start*/
+
+#sec1{
+    width: var(--main-width);
+    height: 600px;
+    margin: auto;
+    background-image: url(https://source.unsplash.com/1600x600/?restaurant);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.secoverlay{
+    width: var(--main-width);
+    height: 600px;
+    margin: auto;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 0;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#clid_div {
+    width: 70vw;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+    padding: 150px;
+}
+
+#content {
+    margin-top: -20px;
+    z-index: +1;
+}
+
+#content h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #F25234;
+    font-weight: 700;
+}
+
+#content p {
+    text-align: justify;
+    color: white;
+    line-height: 1.5;
+}
+
+/* section 1 end*/
+
+/* section 2 start*/
+
+#sec2{
+    width: var(--main-width);
+    height: var(--main-height);
+    margin: auto;
+    position: relative;
+    display: flex;
+    background-color: whitesmoke;
+    place-items: center;
+    justify-content: center;
+}
+
+#chlid2_div{
+    width: 90%;
+    height: 70%;
+    border: 10px double #F25234;
+    overflow: hidden;
+}
+
+
+/* section 2 end*/
+
+
+

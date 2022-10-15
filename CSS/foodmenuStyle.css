@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Section 1 start */
+
+.sec1{
+    width: var(--main-width);
+    height: 600px;
+    margin: auto;
+    background-image: url(https://source.unsplash.com/1600x600/?vegetarianfood);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    position: relative;
+ }
+
+ #overlay{
+     width: var(--main-width);
+      height: 600px;
+      margin: auto;
+     background-color: black;
+     opacity: 0.6;
+     position: absolute;
+     top: 0; left: 0;
+ }
+
+.child_div{
+    width: 70%;
+    height: 70%;
+    display: grid;
+    place-items: center;
+    padding: 150px;
+}
+
+
+.content{
+    z-index: +1;
+}
+
+.content h1{
+    text-align: center;
+    color: #F25234;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.content p{
+    text-align: justify;
+    color: white;
+}
+
+/* section 1 end */
+
+/* section 2 start */
+
+.sec2{
+    width: var(--main-width);
+    height: var(--main-height);
+    margin: auto;
+    background-color: whitesmoke;
+    position: relative;
+    display: grid;
+    place-items: center;
+
+}
+
+.child_div2{
+    width: 90%;
+    height: 71%;
+    overflow: hidden;
+    border: 10px double #F25234;
+    /* padding: 20px; */
+}
+
+/* section 2 end */
+
+.btnbox{
+    width: var(--main-width);
+    height: 100px;
+    background-color: #2b1f1f;
+    display: grid;
+    place-items: center;
+    margin: 20px;
+    margin-left: 150px;
+    box-sizing: 5px 5px 5px black;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#btn{
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F25234;
+    border: 3px solid #F25234;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    display: inline-block;
+    /* animation: btnmove 20s infinite linear; */
+}
+
+/* @keyframes btnmove{
+    0%{ transform: translateX(-800px);}
+    50%{ transform: translateX(+700px); }
+    100%{ transform: translateX(-800px);}
+} */
+
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color:#ffffff;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    transition-duration: .6s;
+}
