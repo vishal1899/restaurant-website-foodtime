@@ -32,8 +32,8 @@
 }
 
 #clid_div {
-    width: 70vw;
-    height: 50vh;
+    width: 70%;
+    height: 50%;
     display: grid;
     place-items: center;
     padding: 150px;
